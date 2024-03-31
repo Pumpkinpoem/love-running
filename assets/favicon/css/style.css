@@ -30,7 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    
+
 }
 
 header a {
@@ -52,13 +52,14 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -100,6 +101,7 @@ footer {
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -108,11 +110,12 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
