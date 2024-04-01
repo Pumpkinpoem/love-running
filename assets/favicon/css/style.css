@@ -182,6 +182,16 @@ main {
     background-color: rgba0, 0, 0, .6;
     padding: 15px;
     text-align: center;
+    /* this will not wrap on screan less then 400px wide
+    each div will expand to fill the available space */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* grid of meetup times */
+    border: 2px solid white;
+}
+
+#times h3 {
+    color: #fafafa;
 }
 
 
